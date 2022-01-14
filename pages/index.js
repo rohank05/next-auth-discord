@@ -9,7 +9,7 @@ export default function Home() {
   const SignedInComponent = () => {
     return (
         <>
-          Signed in as {session.user.email} <br />
+          Signed in as {session.user.name} <br />
           <div>You can now acces our super secret pages</div>
 
           <button onClick={() => signOut()}>Sign out</button>
